@@ -32,4 +32,25 @@ This app runs on port 3000. The browser should automatically open with the app w
 
 ## Understanding the application
 
-Once you start the application the first 
+There are two basic calculations this application is able to make:
+
+1) Calculate the Kc using the concentrations at equilibrium.
+2) Calculate the concentrations at equilibrium using the Kc.
+
+For both calculations the procedure is very similar, please follow the following steps:
+
+1) First step is to introduce the chemical reaction that is taking place. To do so add the reactants and products using the big buttons labled with a (+) sign. Add the stechiometric number and name of the compound as well as its state (solid, liquid, gas, aqueous). In case you want to delete one just click on the trash button next to it. 
+
+Before moving to step 2 make sure that the chemical equation that is shown is the correct one.
+
+Note that if no reactants or products are added the application will not show any other part. 
+
+2) An initial ICE (Initial Change Equilibrium) chart should have appeard. Please introduce the initial concentration of the reactants. Then introduce either one concentration at the Equilibrium row of the ICE or the Kc.
+
+When given an equilibrium concentration a new final ICE chart should show up, and below it the value of the Kc is shown. 
+
+If, instead, it is given the Kc, a button with the text 'apply Kc' should show up. When pressed a modal will show up and you will be asked to solve for x in a given equation. In case you need it, the 'solve with wolpramalpha' will give you the solution to this equation. Once introduced the value for x press the right arrow button next to the input and on the right side of the screen a new 'final ICE' chart will appear showing the concentration of each product and reactant at equilibrium. 
+
+
+
+I strongly encourage all of you to use the app as much as you like and in case you see something that can be improved, feel free to do a pull request. 
