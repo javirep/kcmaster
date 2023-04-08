@@ -1,0 +1,21 @@
+.formula-container {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+}
+
+.formula-container > span {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    padding: 0.1em;
+}
+.formula-container span.denominator, .formula-container span.numerator{
+    display: block;
+    padding: 0.1em;
+}
+.formula-container span.denominator {
+    border-top: thin solid black;
+}

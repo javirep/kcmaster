@@ -1,0 +1,19 @@
+table{
+    margin: auto
+}
+
+table input {
+    width: calc(100% - 5px);
+}
+
+.table-container{
+    width: 100%;
+}
+
+table td{
+    padding: 3px;
+}
+
+.left-border {
+    border-left: 1px dotted black;
+}
